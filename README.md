@@ -103,11 +103,3 @@ Acknowledgements
 The Author Box Plugin uses Font Awesome for social media icons.
 Contact
 For questions or support, please contact Khushwant Parihar at [kgpkhushwant1@gmail.com].
-
-### Explanation
-
-- **Installation and Usage**: Provides step-by-step instructions on how to install and use the plugin, including shortcode usage.
-- **Customization Options**: Lists all available settings and their purposes, making it easy for users to understand how to customize the plugin.
-- **Styling and Accessibility**: Describes the default styling and accessibility features of the plugin.
-- **Contributing**: Provides guidance for contributing to the project on GitHub.
-- **License and Acknowledgements**: Includes licensing information and credits for resources used in the plugin.
