@@ -1,0 +1,116 @@
+.ab-author-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.ab-author-left {
+    text-align: center;
+}
+
+.ab-author-right {
+    padding-left: 20px;
+}
+
+.ab-author-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.ab-author-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.ab-author-description {
+    font-size: 1em;
+    color: #666;
+}
+
+.ab-link-social-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* This allows the items to wrap on smaller screens */
+    gap: 10px; /* Space between items */
+}
+
+.consultation-button {
+    flex-shrink: 0; /* Prevents the button from shrinking */
+    display: inline-block;
+    text-align: center;
+    min-width: 150px; /* Ensures a minimum width */
+    margin: 0; /* Removes any default margins */
+    padding: 10px 20px; /* Adds padding for a comfortable click area */
+    background-color: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #0073aa;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition on hover/focus */
+}
+
+.consultation-button:hover,
+.consultation-button:focus {
+    background-color: #005b8a !important; /* Darker blue on hover */
+    border-color: #005b8a !important; /* Darker blue border on hover */
+    outline: none;
+}
+
+.ab-social-links {
+    display: flex;
+    gap: 15px; /* Space between social icons */
+}
+
+.ab-social-links a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+    transition: transform 0.2s, color 0.2s; /* Smooth transition on hover/focus */
+}
+
+.ab-social-links a i {
+    font-size: 40px; /* Increased size of the social icons */
+}
+
+.ab-social-links a:hover i,
+.ab-social-links a:focus i {
+    color: #005b8a; /* Change color on hover/focus */
+    transform: scale(1.1); /* Slightly enlarge icon on hover/focus */
+}
+
+.ab-social-links a:focus {
+    outline: 2px solid #005b8a; /* Outline for focus state */
+    border-radius: 5px; /* Rounded outline corners */
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .ab-author-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ab-author-right {
+        padding-left: 0;
+        margin-top: 15px;
+    }
+
+    .ab-author-name {
+        font-size: 1.3em;
+    }
+
+    .ab-author-description {
+        font-size: 0.95em;
+    }
+}
