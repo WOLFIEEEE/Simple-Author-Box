@@ -1,6 +1,5 @@
 # Simple-Author-Box
-markdown
-Copy code
+
 # Author Box Plugin
 
 ## Description
